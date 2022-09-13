@@ -1,0 +1,66 @@
+.servicesWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.serviceWindow {
+    background: rgb(255, 255, 255);
+    position: fixed;
+    top: 40pt;
+    width: 45%;
+    height: 100%;
+    right: 0;
+    padding: 10pt;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    overflow: auto;
+}
+
+.servicesCardsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+}
+
+.servicesCardsWrapper.window {
+    width: 55%;
+}
+
+.cardDescription {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.windowCloseButton svg {
+    width: 2em;
+    height: 2em;
+    color: rgb(106 106 106);
+    cursor: pointer;
+}
+
+.windowCloseButton svg:hover {
+    color: rgb(75 151 216);
+}
+
+.widnowHeader {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.windowContent {
+    padding-top: 10pt;
+}
+
+.addVersionButton {
+    margin-bottom: 5pt;
+}

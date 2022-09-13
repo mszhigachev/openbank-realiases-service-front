@@ -1,0 +1,45 @@
+.headerWrapper {
+    height: 40pt;
+    margin-bottom: 18pt;
+    padding: 5pt;
+    background-color: #2e3f4c;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.contentWrapper {
+    padding-left: 20pt;
+    padding-right: calc(20pt - (100vw - 100%));
+    padding-bottom: 20pt;
+    padding-top: 60pt;
+}
+
+
+.navLink {
+    color: #9ea2b9;
+    padding: 8pt;
+}
+
+.navLink:hover {
+    text-decoration: underline;
+}
+
+.navLink.active {
+    color: rgb(254, 254, 254);
+    text-decoration: underline;
+}
+
+/* @media screen and (min-width: 960px) {
+    .contentWrapper {
+        overflow: auto;
+        margin-left: calc(100vw - 100%);
+        margin-right: 0;
+    }
+  } */

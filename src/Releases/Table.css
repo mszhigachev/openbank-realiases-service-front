@@ -1,0 +1,7 @@
+tr.ant-table-expanded-row > td{
+    background: rgb(238 238 238);
+}
+
+tr.ant-table-expanded-row > td:hover{
+    background: rgb(238 238 238);
+}
